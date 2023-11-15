@@ -1,0 +1,65 @@
+body {
+    background-image: url(gym_BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ranks-Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80vh;
+    width: 500px;
+}
+
+.rank_DIV {
+    text-align: center;
+    box-shadow: inset 10px 0 15px -5px rgba(255, 255, 255, 0.2),
+                inset -10px 0 15px -5px rgba(255, 255, 255, 0.2);
+}
+
+.rank_DIV:hover {
+    transform: scale(1.05);
+}
+
+.rank_DIV:active {
+    transform: scale(0.95);
+}
+
+.rank_DIV img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rank_DIV p {
+    margin: 8px 0 0;
+    font-weight: bold;
+    color: rgb(182, 180, 180);
+}
+
+.rank_DIV:hover p {
+    transform: scale(1.2);
+    color: white;
+}
+
+.rank_DIV:active p {
+    transform: scale(0.8);
+    color: #e0e0e0;
+}
+
+#iron-rank_DIV {
+    margin-bottom: 0px;
+}
+
+#bronze-rank_DIV {
+    margin-bottom: 50px;
+}
+
+#silver-rank_DIV {
+    margin-bottom: 100px;
+}
+
+#gold-rank_DIV {
+    margin-bottom: 150px;
+}
