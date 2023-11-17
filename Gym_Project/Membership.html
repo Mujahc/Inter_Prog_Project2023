@@ -7,12 +7,36 @@
     <title>Membership</title>
 </head>
 
-<body>
-    <a href="Home.html">Home</a>
-    <a href="Classes.html">Classes</a>
-    <a href="Workout.html">Workout</a>
-    <a href="Membership.html">Membership</a>
-    <a href="PremiumZone.html">Premium Zone</a>
+<body class="gold-text">
+    <header>
+        <div id="sign-up_LoginDIV">
+            <button id="joinNowButton" class="custom-button">Sign Up</button>
+            <button id="logInButton" class="custom-button">Login</button>
+        </div>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Classes.html">Classes</a>
+            <a href="Workout.html">Workout</a>
+            <a href="Membership.html">Membership</a>
+            <a href="PremiumZone.html">Premium Zone</a>
+    
+            <button id="joinNowButton" class="custom-button">JOIN NOW!</button>
+        </nav>
+    </header>
+
+    <div id="specialOffersDIV">
+
+        <div id="exclusiveDiscountsDIV">
+            
+        </div>
+
+        <form action="/search" method="get" id="seacrhForm" class="search-form">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search" placeholder="Search...">
+            <button type="submit" id="searchButton" class="custom-button">Search</button>
+        </form>
+    </div>
 
     <div id="ranks-Container">
         <!-- images from https://leagueoflegends.fandom.com/wiki/Rank_(Wild_Rift) -->
@@ -34,6 +58,74 @@
         <div id="gold-rank_DIV" class="rank_DIV">
             <img src="Gold_Rank.png" alt="Gold Rank">
             <p>Gold Rank</p>
+        </div>
+    </div>
+
+    <div id="benefits-section">
+        <h2>Member Benefits</h2>
+    
+        <!-- Iron Rank Benefits -->
+        <div class="benefit-rank" id="iron-benefit">
+            <h3>Iron Rank Benefits</h3>
+            <p>As an Iron member, you get access to:</p>
+            <ul>
+                <li>Basic Gym Facilities</li>
+                <li>Group Classes</li>
+            </ul>
+            <!-- Add an image and video for Iron Rank benefits -->
+            <img src="iron_benefit_image.jpg" alt="Iron Rank Benefit Image">
+            <video width="320" height="240" controls>
+                <source src="iron_benefit_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    
+        <!-- Bronze Rank Benefits -->
+        <div class="benefit-rank" id="bronze-benefit">
+            <h3>Bronze Rank Benefits</h3>
+            <p>Upgrade to Bronze for additional perks:</p>
+            <ul>
+                <li>Access to Showers</li>
+                <li>Extended Gym Hours</li>
+            </ul>
+            <!-- Add an image and video for Bronze Rank benefits -->
+            <img src="bronze_benefit_image.jpg" alt="Bronze Rank Benefit Image">
+            <video width="320" height="240" controls>
+                <source src="bronze_benefit_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    
+        <!-- Silver Rank Benefits -->
+        <div class="benefit-rank" id="silver-benefit">
+            <h3>Silver Rank Benefits</h3>
+            <p>Enjoy even more advantages with Silver membership:</p>
+            <ul>
+                <li>Access to Massage Room</li>
+                <li>Exclusive Gym Events</li>
+            </ul>
+            <!-- Add an image and video for Silver Rank benefits -->
+            <img src="silver_benefit_image.jpg" alt="Silver Rank Benefit Image">
+            <video width="320" height="240" controls>
+                <source src="silver_benefit_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    
+        <!-- Gold Rank Benefits -->
+        <div class="benefit-rank" id="gold-benefit">
+            <h3>Gold Rank Benefits</h3>
+            <p>Unlock premium perks with Gold membership:</p>
+            <ul>
+                <li>Personal Trainer Sessions</li>
+                <li>Priority Access to Classes</li>
+            </ul>
+            <!-- Add an image and video for Gold Rank benefits -->
+            <img src="gold_benefit_image.jpg" alt="Gold Rank Benefit Image">
+            <video width="320" height="240" controls>
+                <source src="gold_benefit_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </body>
