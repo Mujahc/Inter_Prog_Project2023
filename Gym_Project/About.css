@@ -1,0 +1,30 @@
+body {
+    background-image: url(gym_BG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: #DAA520;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.gold-text {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #DAA520;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
