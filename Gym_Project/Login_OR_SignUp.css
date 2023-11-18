@@ -20,6 +20,19 @@ nav a:hover {
     color: #fff;
 }
 
+footer {
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.5;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(32, 31, 31, 0.8);
+    position: fixed;
+    bottom: 0;
+    /* border: 1px solid pink; */
+}
+
 .form-container {
     max-width: 400px;
     margin: 50px auto;
