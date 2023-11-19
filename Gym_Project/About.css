@@ -9,20 +9,20 @@ body {
 }
 
 nav {
-    background-color: #222; /* Dark background for navigation */
+    background-color: #222;
     padding: 10px;
     text-align: right;
 }
 
 nav a {
-    color: #DAA520; /* Gold text color */
+    color: #DAA520;
     text-decoration: none;
     margin: 0 15px;
     transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 nav a:hover {
-    color: #fff; /* White text color on hover */
+    color: #fff;
 }
 
 #about-content {
@@ -36,7 +36,7 @@ nav a:hover {
 
 #about-content h1,
 #about-content h2 {
-    color: #DAA520; /* Gold text color for headings */
+    color: #DAA520;
 }
 
 #about-content p {
