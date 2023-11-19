@@ -2,26 +2,58 @@ body {
     background-image: url(gym_BG.jpg);
     background-size: cover;
     background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: #DAA520;
 }
 
 nav {
-    background-color: #DAA520;
+    background-color: #222; /* Dark background for navigation */
     padding: 10px;
     text-align: right;
 }
 
 nav a {
-    color: black;
+    color: #DAA520; /* Gold text color */
     text-decoration: none;
     margin: 0 15px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 nav a:hover {
-    color: #fff;
+    color: #fff; /* White text color on hover */
+}
+
+#about-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(32, 31, 31, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#about-content h1,
+#about-content h2 {
+    color: #DAA520; /* Gold text color for headings */
+}
+
+#about-content p {
+    margin-bottom: 15px;
+}
+
+#about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about-content ul li {
+    margin-bottom: 8px;
 }
 
 footer {
-    color: aliceblue;
+    color: #DAA520;
     text-align: center;
     font-size: 10px;
     opacity: 0.5;
@@ -30,14 +62,4 @@ footer {
     background-color: rgba(32, 31, 31, 0.8);
     position: fixed;
     bottom: 0;
-    /* border: 1px solid pink; */
-}
-
-.gold-text {
-    font-family: "Arial", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #DAA520;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
