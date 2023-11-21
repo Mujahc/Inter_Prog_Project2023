@@ -16,6 +16,8 @@
         <a href="Membership.html">Membership</a>
         <a href="Login_OR_SignUp.html">Login OR Sign Up</a>
         <a href="About.html">About</a>
+
+        <button id="seeDealsButton" class="custom-button" onclick="redirectToHomePage()">See DEALS!</button>
     </nav>
 
     <div class="form-container">
@@ -55,6 +57,10 @@
     </div>
 
     <script>
+        function redirectToHomePage() {
+            window.location.href = "Home.html";
+        }
+
         function toggleForm(formId) {
             document.getElementById('loginForm').style.display = formId === 'loginForm' ? 'block' : 'none';
             document.getElementById('signupForm').style.display = formId === 'signupForm' ? 'block' : 'none';

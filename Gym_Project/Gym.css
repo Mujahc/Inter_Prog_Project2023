@@ -77,14 +77,32 @@ footer {
 }
 
 #sign-up_LoginDIV {
-    text-align: right;
     display: flex;
+    text-align: right;
     justify-content: space-between;
     margin: 0 10px;
 }
 
 #joinNowButton {
     margin: 0 10px;
+}
+
+#seeDealsButton {
+    background: linear-gradient(to bottom, #FFD700, #DAA520);
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#seeDealsButton:hover {
+    background: linear-gradient(to bottom, #DAA520, #FFD700);
+    transform: scale(1.05);
 }
 
 .gold-text {
