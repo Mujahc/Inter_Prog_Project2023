@@ -1,50 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-image: url(gym_BG.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-}
-
-nav {
-  background-color: #DAA520;
-  padding: 10px;
-  text-align: right;
-}
-
-nav a {
-  color: black;
-  text-decoration: none;
-  margin: 0 15px;
-}
-
-nav a:hover {
-  color: #fff;
-}
-
-footer {
-  color: aliceblue;
-  text-align: center;
-  font-size: 10px;
-  opacity: 0.5;
-  padding: 10px 0;
-  width: 100%;
-  background-color: rgba(32, 31, 31, 0.8);
-  position: fixed;
-  bottom: 0;
-  /* border: 1px solid pink; */
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  margin: 0;
 }
 
 #specialOffersDIV {
@@ -121,38 +81,7 @@ footer {
   margin: 0 10px;
 }
 
-.custom-button {
-  background-color: #fff;
-  color: #000;
-  border: none;
-  padding: 8px 15px;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.2s, transform 0.1s;
-}
-
-.custom-button:hover {
-  background-color: #000;
-  color: #fff;
-  transform: scale(1.05);
-}
-
-.custom-button:focus {
-  outline: none;
-}
-
-.gold-text {
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #DAA520;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+/* ----------------------------------Facilities---------------------------------- */
 
 .faclities-header {
   padding: 1rem;
