@@ -66,8 +66,6 @@ footer {
     transition: background-color 0.2s, transform 0.1s;
 }
 
-/* ----------------------------------------------------------------- */
-
 .custom-button:hover {
     background-color: #000;
     color: #fff;
@@ -76,6 +74,17 @@ footer {
 
 .custom-button:focus {
     outline: none;
+}
+
+#sign-up_LoginDIV {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+#joinNowButton {
+    margin: 0 10px;
 }
 
 .gold-text {

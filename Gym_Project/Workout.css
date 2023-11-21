@@ -70,17 +70,6 @@ body {
   text-align: center;
 }
 
-#sign-up_LoginDIV {
-  text-align: right;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 10px;
-}
-
-#joinNowButton {
-  margin: 0 10px;
-}
-
 /* ----------------------------------Facilities---------------------------------- */
 
 .faclities-header {
