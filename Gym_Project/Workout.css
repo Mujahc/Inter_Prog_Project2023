@@ -116,9 +116,9 @@ body {
 }
 
 .facilities-cards {
-  width: 35rem;
-  height: 40rem;
-  margin: 4rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 6rem;
   background-color: #15141b;
   box-shadow: 0 5rem 6rem rgba(0, 0, 0, 0.3);
 }
@@ -155,4 +155,9 @@ body {
   border-radius: 10rem;
   border: .1rem solid #DAA520;
   outline: none;
+}
+
+.card-btn:hover {
+  color: #15141b;
+  background: #DAA520;
 }

@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
     joinNowButton.addEventListener('click', function () {
         window.location.href = 'Home.html';
     });
-
-    function openYouTubeVideo(videoId) {
-        var videoUrl = 'https://www.youtube.com/watch?v=' + videoId;
-    
-        window.open(videoUrl, '_blank');
-    }
 });
+
+function openYouTubeVideo(videoId) {
+    var videoUrl = 'https://www.youtube.com/watch?v=' + videoId;
+
+    window.open(videoUrl, '_blank');
+}
