@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login_OR_SignUp.css">
+    <link rel="stylesheet" href="Gym.css">
+    <title>Login</title>
+</head>
+
+<body class="gold-text">
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Workout.html">Workout</a>
+        <a href="Membership.html">Membership</a>
+        <a href="Login.html">Login</a>
+        <a href="SignUp.html">Sign Up</a>
+        <a href="About.html">About</a>
+        
+        <button id="seeDealsButton" class="custom-button" onclick="redirectToHomePage()">See DEALS!</button>
+    </nav>
+
+    <div class="form-container">
+        <div id="loginForm">
+            <h2>Login</h2>
+            <form action="login_process.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="custom-button">Login</button>
+            </form>
+            <p>Don't have an account? <a href="SignUp.html">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script>
+        function redirectToHomePage() {
+            window.location.href = "Home.html";
+        }
+    </script>
+
+    <footer>
+        <p><i>&copy; 2023 Johann Culla-ag & Rolly Jake Gayo. All rights reserved.</i></p>
+    </footer>
+</body>
+
+</html>
