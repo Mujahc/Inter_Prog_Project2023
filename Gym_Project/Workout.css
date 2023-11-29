@@ -155,26 +155,3 @@ body {
   border: .1rem solid #DAA520;
   outline: none;
 }
-
-.check-all-wrpr {
-  text-align: center;
-}
-
-.check-all-btn {
-  padding: 1.5rem 1rem;
-  width: 20rem;
-  margin: 2rem 0;
-  background-color: transparent;
-  text-transform: uppercase;
-  color: #DAA520;
-  border: .2rem solid #DAA520;
-  outline: none;
-  cursor: pointer;
-  box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, 0.2);
-  transition: all .2sec;
-}
-
-.check-all-btn:hover {
-  color: #ddd;
-  background-color: #DAA520;
-}
