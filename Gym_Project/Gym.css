@@ -1,3 +1,4 @@
+/* Gym.css */
 * {
     margin: 0;
     padding: 0;
@@ -47,52 +48,38 @@ footer {
     opacity: 0.5;
     padding: 10px 0;
     width: 100%;
-    background-color: rgba(32, 31, 31, 0.8);
-    position: fixed;
-    bottom: 0;
+    background-color: #222;
 }
 
-.custom-button {
-    background-color: #fff;
+.signUpButton, .logInButton {
+    background-color: #DAA520;
     color: #000;
     border: none;
-    padding: 8px 15px;
-    font-size: 12px;
+    padding: 10px 15px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.2s, transform 0.1s;
 }
 
-.custom-button:hover {
+.signUpButton:hover, .logInButton:hover {
     background-color: #000;
     color: #fff;
     transform: scale(1.05);
 }
 
-.custom-button:focus {
+.signUpButton:focus, .logInButton:focus {
     outline: none;
 }
 
-#sign-up_LoginDIV {
-    display: flex;
-    text-align: right;
-    justify-content: space-between;
-    margin: 0 10px;
-}
-
-#joinNowButton {
-    margin: 0 10px;
-}
-
-#seeDealsButton {
+.seeDealsButton {
     background: linear-gradient(to bottom, #FFD700, #DAA520);
     color: black;
     border: none;
-    padding: 8px 15px;
-    font-size: 12px;
+    padding: 10px 15px;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
@@ -100,16 +87,7 @@ footer {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-#seeDealsButton:hover {
+.seeDealsButton:hover {
     background: linear-gradient(to bottom, #DAA520, #FFD700);
     transform: scale(1.05);
-}
-
-.gold-text {
-    font-family: "Arial", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #DAA520;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
