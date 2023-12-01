@@ -50,6 +50,12 @@ nav a:hover {
     max-height: 350px;
 }
 
+#exclusiveDiscountsDIV:hover {
+    rotate: 10deg;
+    scale: 1.2;
+    filter: brightness(1.75);
+}
+
 #InfoDIV {
     width: 100%;
     height: auto;

@@ -1,10 +1,73 @@
+<!-- Home.html -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Gym.css">
+    <title>Home</title>
 </head>
-<body>
-    Hello
+
+<body class="gold-text">
+    <header>
+        <div id="sign-up_LoginDIV">
+            <button class="signUpButton">Sign Up</button>
+            <button class="logInButton">Login</button>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Workout.html">Workout</a>
+            <a href="Membership.html">Membership</a>
+            <a href="Login.html">Login</a>
+            <a href="SignUp.html">Sign Up</a>
+            <a href="About.html">About</a>
+
+            <button class="signUpButton">JOIN NOW!</button>
+        </nav>
+    </header>
+
+    <div id="specialOffersDIV">
+        <div id="exclusiveDiscountsDIV"></div>
+    </div>
+
+    <div id="InfoDIV">
+        <h1>DISCOVER THE ECONOMIZE PROGRAM</h1>
+        <p>Enjoy the benefits of a high-quality gym at a low price, plus exclusive offers and discounts* from popular
+            brands.</p>
+        <p>*Offers and discounts subject to change without notice.</p>
+    </div>
+
+    <div id="notAMemberDIV" class="memberDiv">
+        <div class="memberImageContainer">
+            <img src="notAMember_image.png" alt="Not a Member Image" class="memberImage">
+        </div>
+        <p><span>Not a member yet?</span> Subscribe now to take advantage of exclusive offers for Éconofitness members!
+        </p>
+        <button class="signUpButton memberButton">SIGN UP!</button>
+    </div>
+
+    <div id="aMemberDIV" class="memberDiv">
+        <div class="memberImageContainer">
+            <img src="aMember_image.png" alt="A Member Image" class="memberImage">
+        </div>
+        <p><span>Éconofitness members</span>, log in to your Member Space to find out how to take advantage of your
+            exclusive offers!</p>
+        <button class="logInButton memberButton">LOG IN!</button>
+    </div>
+
+    <div id="memberStoriesDIV">
+        <div id="memberImage"></div>
+        <div id="memberQuote">"Look at THOSE GAINS!"</div>
+        <div id="memberName">Rolly Jake Gayo</div>
+    </div>
+
+    <script src="Gym.js"></script>
+
+    <footer>
+        <p><i>&copy; 2023 Johann Culla-ag & Rolly Jake Gayo. All rights reserved.</i></p>
+    </footer>
 </body>
+
 </html>
