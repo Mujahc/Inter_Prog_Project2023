@@ -58,6 +58,14 @@ nav {
     outline: none;
 }
 
+.form-container a {
+    color: white;
+}
+
+.form-container a:hover {
+    color: red;
+}
+
 .success-dialog {
     position: fixed;
     top: 50%;

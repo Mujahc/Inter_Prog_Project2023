@@ -19,7 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Select the button with class "seeDealsButton" and attach click event
     var joinNowButton = document.querySelector('.seeDealsButton');
     joinNowButton.addEventListener('click', function () {
-        window.location.href = 'Home.html';
+        window.location.href = 'index.html';
+    });
+
+    var joinNowButton = document.querySelector('.formButton');
+    joinNowButton.addEventListener('click', function () {
+        window.location.href = 'index.html';
     });
 
     // Get the login form and attach a submit event listener
@@ -64,7 +69,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-function simulateSuccessfulLogin() {
-    const username = document.getElementById('username').value;
-    alert(`Successful Log In. Have a Good Workout, ${username}!`);
-}
+// function simulateSuccessfulLogin() {
+//     const username = document.getElementById('username').value;
+//     alert(`Successful Log In. Have a Good Workout, ${username}!`);
+// }
+document.addEventListener('DOMContentLoaded', function () {
+    const signUpForm = document.getElementById('loginForm');
+
+    signUpForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const newUsername = document.getElementById('username').value;
+        // Simulate a successful signup
+        showSuccessDialog(`Successful Log In. Have a Good Workout, ${username}!`);
+    });
+});
