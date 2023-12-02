@@ -120,3 +120,20 @@ footer {
     background: linear-gradient(to bottom, #DAA520, #FFD700);
     transform: scale(1.05);
 }
+
+.adImage {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.adImage:hover {
+    rotate: 10deg;
+    filter: brightness(1.3);
+}

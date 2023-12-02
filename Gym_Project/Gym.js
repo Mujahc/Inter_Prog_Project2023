@@ -83,3 +83,35 @@ document.addEventListener('DOMContentLoaded', function () {
         showSuccessDialog(`Successful Log In. Have a Good Workout, ${username}!`);
     });
 });
+
+// Deals
+document.addEventListener("DOMContentLoaded", function () {
+    const exclusiveDiscountsDiv = document.querySelector('.exclusiveDiscountsDIV');
+    const specialOffersDiv = document.querySelector('.specialOffersDIV');
+
+    exclusiveDiscountsDiv.addEventListener('click', function () {
+        // Make an AJAX request to load ad data from deals.json
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', 'deals.json', true);
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                const response = JSON.parse(xhr.responseText);
+                const adImageSrc = response.ad.imageSrc;
+                const adAltText = response.ad.altText;
+                const adLink = response.ad.link;
+
+                // Update specialOffersDiv with the ad
+                specialOffersDiv.innerHTML = `
+                    <a href="${adLink}" target="_blank">
+                        <img src="${adImageSrc}" alt="${adAltText}" class="adImage">
+                    </a>
+                `;
+            } else {
+                console.error('Failed to load deals.json. Status:', xhr.status);
+            }
+        };
+
+        xhr.send();
+    });
+});
