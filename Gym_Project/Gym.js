@@ -1,6 +1,6 @@
 // Gym.js
 document.addEventListener('DOMContentLoaded', function () {
-    // Select buttons with class "signUpButton" and attach click event
+    // Select buttons with class "signUpButton"
     var signUpButtons = document.querySelectorAll('.signUpButton');
     signUpButtons.forEach(function (button) {
         button.addEventListener('click', function () {
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Select buttons with class "logInButton" and attach click event
+    // Select buttons with class "logInButton"
     var logInButtons = document.querySelectorAll('.logInButton');
     logInButtons.forEach(function (button) {
         button.addEventListener('click', function () {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Select the button with class "seeDealsButton" and attach click event
+    // Select the button with class "seeDealsButton"
     var joinNowButton = document.querySelector('.seeDealsButton');
     joinNowButton.addEventListener('click', function () {
         window.location.href = 'index.html';
@@ -47,7 +47,7 @@ function showSuccessDialog(message) {
 
     setTimeout(() => {
         dialog.remove();
-    }, 2000); // Remove the dialog after 3 seconds (adjust as needed)
+    }, 2000); // Remove the dialog after 3 seconds
 }
 
 // Simulate a successful signup
