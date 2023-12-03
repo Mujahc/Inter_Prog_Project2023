@@ -37,7 +37,7 @@ nav a:hover {
     padding: 20px;
 }
 
- /* aMember and notAMember divs */
+/* aMember and notAMember divs */
 .memberDiv {
     width: 100%;
     border: 1px #DAA520 solid;
@@ -66,14 +66,13 @@ nav a:hover {
     height: auto;
     border-radius: 10%;
     object-fit: cover;
-
 }
 
 .memberButton {
     margin-top: 10px;
 }
 
- /* memberStories div */
+/* memberStories div */
 #memberQuote,
 #memberName {
     margin-bottom: 10px;
