@@ -1,5 +1,6 @@
+// Gym.js
 document.addEventListener('DOMContentLoaded', function () {
-    // Class "signUpButton"
+    // Select buttons with class "signUpButton"
     var signUpButtons = document.querySelectorAll('.signUpButton');
     signUpButtons.forEach(function (button) {
         button.addEventListener('click', function () {
@@ -7,16 +8,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Class "logInButton"
+    // Select buttons with class "logInButton"
     var logInButtons = document.querySelectorAll('.logInButton');
     logInButtons.forEach(function (button) {
         button.addEventListener('click', function () {
             window.location.href = 'Login.html';
-            simulateSuccessfulLogin(); // simulate a successful login
+            simulateSuccessfulLogin(); // Call the function to simulate a successful login
         });
     });
 
-    // Class "seeDealsButton"
+    // Select the button with class "seeDealsButton"
     var joinNowButton = document.querySelector('.seeDealsButton');
     joinNowButton.addEventListener('click', function () {
         window.location.href = 'index.html';
@@ -46,29 +47,29 @@ function showSuccessDialog(message) {
 
     setTimeout(() => {
         dialog.remove();
-    }, 2000); // Remove dialog after 3 seconds
+    }, 2000); // Remove the dialog after 3 seconds
 }
 
-// Simulate successful signup
+// Simulate a successful signup
 document.addEventListener('DOMContentLoaded', function () {
     const signUpForm = document.getElementById('signupForm');
 
     signUpForm.addEventListener('submit', function (e) {
         e.preventDefault();
         const newUsername = document.getElementById('newUsername').value;
-        
+
         showSuccessDialog(`Successful Sign Up. Welcome, ${newUsername}!`);
     });
 });
 
-// Simulate successful login
+// Simulate a successful login
 document.addEventListener('DOMContentLoaded', function () {
     const loginForm = document.getElementById('loginForm');
 
     loginForm.addEventListener('submit', function (e) {
         e.preventDefault();
         const username = document.getElementById('username').value;
-        
+
         showSuccessDialog(`Successful Log In. Have a Good Workout, ${username}!`);
     });
 });
@@ -83,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const specialOffersDiv = document.querySelector('.specialOffersDIV');
 
     exclusiveDiscountsDiv.addEventListener('click', function () {
-        // Make AJAX request to load ad data from deals.json
+        // Make an AJAX request to load ad data from deals.json
         const xhr = new XMLHttpRequest();
         xhr.open('GET', 'deals.json', true);
 
@@ -107,4 +108,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
         xhr.send();
     });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the rank div elements
+    var ironRankDiv = document.getElementById('iron-rank_DIV');
+    var bronzeRankDiv = document.getElementById('bronze-rank_DIV');
+    var silverRankDiv = document.getElementById('silver-rank_DIV');
+    var goldRankDiv = document.getElementById('gold-rank_DIV');
+
+    // Add click event listeners to each rank div
+    ironRankDiv.addEventListener('click', function () {
+        calculateAndDisplayFee('Iron', 10);
+    });
+
+    bronzeRankDiv.addEventListener('click', function () {
+        calculateAndDisplayFee('Bronze', 15);
+    });
+
+    silverRankDiv.addEventListener('click', function () {
+        calculateAndDisplayFee('Silver', 20);
+    });
+
+    goldRankDiv.addEventListener('click', function () {
+        calculateAndDisplayFee('Gold', 25);
+    });
+
+    // Function to calculate and display the fee
+    function calculateAndDisplayFee(rank, fee) {
+        alert('Membership Fee for ' + rank + ' Rank: $' + fee);
+    }
+
+    var membershipForm = document.getElementById('membership-form');
+    if (membershipForm) {
+        membershipForm.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form from submitting
+        });
+    }
 });

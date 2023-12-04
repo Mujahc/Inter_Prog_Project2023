@@ -87,3 +87,54 @@
   color: #15141b;
   background: #DAA520;
 }
+
+.guidelines {
+  margin: 2rem 0;
+  text-align: center;
+  color: #DAA520;
+}
+
+.guidelines h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.guidelines-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.guidelines-table th,
+.guidelines-table td {
+  border: 1px solid #DAA520;
+  padding: 0.5rem;
+}
+
+.guidelines-table th {
+  background-color: #15141b;
+  color: #DAA520;
+}
+
+.guidelines-table td {
+  background-color: #15141b;
+  color: #ddd;
+}
+
+.guidelines-table tbody tr:nth-child(odd) {
+  background-color: #1d1b27;
+}
+
+@media (max-width: 768px) {
+  .guidelines-table {
+    width: 100%;
+  }
+
+  .guidelines-table th,
+  .guidelines-table td {
+    font-size: 14px;
+  }
+}
