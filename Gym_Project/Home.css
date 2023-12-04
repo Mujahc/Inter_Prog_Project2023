@@ -1,38 +1,7 @@
-/* Home.css */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    padding: 10px;
-}
-
-nav {
-    background-color: #222;
-    padding: 10px;
-    text-align: right;
-}
-
-nav a {
-    color: #DAA520;
-    text-decoration: none;
-    margin: 0 15px;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #fff;
-}
-
 #InfoDIV {
     width: 100%;
     height: auto;
-    border: 1px #DAA520 solid;
+    /* border: 1px #DAA520 solid; */
     text-align: center;
     padding: 20px;
 }
@@ -40,7 +9,7 @@ nav a:hover {
 /* aMember and notAMember divs */
 .memberDiv {
     width: 100%;
-    border: 1px #DAA520 solid;
+    /* border: 1px #DAA520 solid; */
     text-align: center;
     padding: 20px;
     margin-top: 20px;
@@ -57,7 +26,7 @@ nav a:hover {
 
 .memberImageContainer {
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     margin-bottom: 10px;
 }
 

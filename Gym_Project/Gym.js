@@ -1,6 +1,5 @@
-// Gym.js
 document.addEventListener('DOMContentLoaded', function () {
-    // Select buttons with class "signUpButton"
+    // Class "signUpButton"
     var signUpButtons = document.querySelectorAll('.signUpButton');
     signUpButtons.forEach(function (button) {
         button.addEventListener('click', function () {
@@ -8,16 +7,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Select buttons with class "logInButton"
+    // Class "logInButton"
     var logInButtons = document.querySelectorAll('.logInButton');
     logInButtons.forEach(function (button) {
         button.addEventListener('click', function () {
             window.location.href = 'Login.html';
-            simulateSuccessfulLogin(); // Call the function to simulate a successful login
+            simulateSuccessfulLogin(); // simulate a successful login
         });
     });
 
-    // Select the button with class "seeDealsButton"
+    // Class "seeDealsButton"
     var joinNowButton = document.querySelector('.seeDealsButton');
     joinNowButton.addEventListener('click', function () {
         window.location.href = 'index.html';
@@ -47,10 +46,10 @@ function showSuccessDialog(message) {
 
     setTimeout(() => {
         dialog.remove();
-    }, 2000); // Remove the dialog after 3 seconds
+    }, 2000); // Remove dialog after 3 seconds
 }
 
-// Simulate a successful signup
+// Simulate successful signup
 document.addEventListener('DOMContentLoaded', function () {
     const signUpForm = document.getElementById('signupForm');
 
@@ -62,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Simulate a successful login
+// Simulate successful login
 document.addEventListener('DOMContentLoaded', function () {
     const loginForm = document.getElementById('loginForm');
 
@@ -84,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const specialOffersDiv = document.querySelector('.specialOffersDIV');
 
     exclusiveDiscountsDiv.addEventListener('click', function () {
-        // Make an AJAX request to load ad data from deals.json
+        // Make AJAX request to load ad data from deals.json
         const xhr = new XMLHttpRequest();
         xhr.open('GET', 'deals.json', true);
 
