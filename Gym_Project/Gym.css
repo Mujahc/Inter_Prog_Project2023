@@ -33,7 +33,7 @@ nav a {
     color: #DAA520;
     text-decoration: none;
     margin: 0 15px;
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
