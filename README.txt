@@ -32,6 +32,25 @@ Information about the gym's mission and dedication to providing an affordable fi
 Guidelines for using the website.
 
 Getting Started
+1. Clone the repository: 
+    - git clone https://github.com/Mujahc/Inter_Prog_Project2023.git
+    - you can use Github Desktop or Git (Github Desktop Easier. Download form here: https://desktop.github.com/)
+2. Navigate to the Project Directory:
+    - Open Visual Studio Code
+    - Choose "Explorer" (symbol with paper folded in right top corner)
+    - Click Open Folder
+    - Browse File Explorer
+        - Go to Documents
+        - Then Github
+        - Then Search for folder named Inter_Prog_Project2023
+        - Click Select Folder
+3. Running the Website:
+    - In Visual Studio Code, go to "Extensions" (symbol with four boxes with one detached)
+    - Search Live Server and Install it
+    - Go back to "Explorer" 
+    - Click any html files (e.g.: index.html)
+    - Then inside the html, right click and choose "Open with Live Server"
+
 Usage
 Navigation:
 
