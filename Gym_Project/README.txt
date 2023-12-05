@@ -1,24 +1,60 @@
-Gym Website Project
+Gym Website Project README
+Project Overview
+Welcome to the Gym Website project! This web application is designed to provide users with information about the gym, its membership options, workout facilities, and more. The project consists of several HTML pages, each serving a specific purpose and contributing to the overall functionality of the website.
 
-Introduction
-This project is a simple gym website designed for a fictional fitness center. It includes features such as membership information, workout details, and an about us section.
+Project Structure
+The project is organized into several HTML files, each representing a different page of the website. Here's an overview of the key pages:
 
-Features
-Membership details and benefits
-Workout machine information and guidelines
-About us section explaining the gym's mission and guidelines for website usage
+Home Page (index.html):
 
+Introduction to the gym and its Gym program.
+Special offers and discounts.
+Member-specific sections with images and quotes.
+Membership Page (Membership.html):
+
+Display of different membership ranks with corresponding perks.
+Member benefits section with videos showcasing facilities for each rank.
+Workout Page (Workout.html):
+
+Showcase of workout facilities with images and descriptions.
+Workout guidelines section with a table detailing sets and reps for each machine.
+Sign Up Page (SignUp.html):
+
+Form for new users to sign up, including fields for username, email, password, and confirmation.
+Option to navigate to the login page.
+Login Page (Login.html):
+
+Form for existing users to log in, including fields for username and password.
+Option to navigate to the sign-up page.
+About Us Page (About.html):
+
+Information about the gym's mission and dedication to providing an affordable fitness experience.
+Guidelines for using the website.
+
+Getting Started
 Usage
-Explore different sections of the website:
+Navigation:
 
-Home: Overview and exclusive offers
-Workout: Information on workout machines and guidelines
-Membership: Details about membership ranks and benefits
-Login/Sign Up: Access your member account or sign up
-About Us: Learn about the gym's mission and guidelines
+Use the navigation bar to explore different sections of the website.
+Membership Information:
 
+Learn about different membership ranks and their perks on the Membership page.
+Workout Facilities:
+
+Explore the workout facilities and guidelines on the Workout page.
+User Authentication:
+
+Sign up for a new account or log in with an existing one on the Sign Up and Login pages.
+
+Credits
+Authors: Johann Culla-ag, Rolly Jake Gayo
 License
 This project is licensed under the MIT License.
 
 Contact
-For any inquiries or support, please contact us at gymwebsite@email.com.
+If you have any questions or concerns, please contact the authors at:
+
+Johann Culla-ag: https://github.com/Mujahc
+Rolly Jake Gayo: https://github.com/mr-yoso
+
+Thank you for using our Gym Website! We hope you enjoy exploring the various features and information it has to offer.
