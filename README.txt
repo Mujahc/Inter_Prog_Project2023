@@ -34,9 +34,9 @@ Guidelines for using the website.
 Getting Started
 1. Clone the repository: 
     - git clone https://github.com/Mujahc/Inter_Prog_Project2023.git
-    - you can use Github Desktop or Git (Github Desktop Easier. Download form here: https://desktop.github.com/)
+    - you can use Github Desktop or Git (Github Desktop Easier. Download from here: https://desktop.github.com/)
 2. Navigate to the Project Directory:
-    - Open Visual Studio Code
+    - Open Visual Studio Code (Download from here: https://code.visualstudio.com/download)
     - Choose "Explorer" (symbol with paper folded in right top corner)
     - Click Open Folder
     - Browse File Explorer
