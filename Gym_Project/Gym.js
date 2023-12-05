@@ -73,10 +73,6 @@ document.addEventListener('DOMContentLoaded', function () {
         showSuccessDialog(`Successful Log In. Have a Good Workout, ${username}!`);
     });
 });
-// function simulateSuccessfulLogin() {
-//     const username = document.getElementById('username').value;
-//     alert(`Successful Log In. Have a Good Workout, ${username}!`);
-// }
 
 // Deals
 document.addEventListener("DOMContentLoaded", function () {
@@ -117,6 +113,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var silverRankDiv = document.getElementById('silver-rank_DIV');
     var goldRankDiv = document.getElementById('gold-rank_DIV');
 
+    // Function to calculate and display the fee
+    function calculateAndDisplayFee(rank, fee) {
+        alert('Membership Fee for ' + rank + ' Rank: $' + fee);
+    }
+
     // Add click event listeners to each rank div
     ironRankDiv.addEventListener('click', function () {
         calculateAndDisplayFee('Iron', 10);
@@ -133,16 +134,4 @@ document.addEventListener('DOMContentLoaded', function () {
     goldRankDiv.addEventListener('click', function () {
         calculateAndDisplayFee('Gold', 25);
     });
-
-    // Function to calculate and display the fee
-    function calculateAndDisplayFee(rank, fee) {
-        alert('Membership Fee for ' + rank + ' Rank: $' + fee);
-    }
-
-    var membershipForm = document.getElementById('membership-form');
-    if (membershipForm) {
-        membershipForm.addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent form from submitting
-        });
-    }
 });
