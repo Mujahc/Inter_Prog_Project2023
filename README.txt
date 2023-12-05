@@ -6,9 +6,9 @@ Project Structure
 The project is organized into several HTML files, each representing a different page of the website. Here's an overview of the key pages:
 
 Home Page (index.html):
-
 Introduction to the gym and its Gym program.
 Special offers and discounts.
+
 Member-specific sections with images and quotes.
 Membership Page (Membership.html):
 
