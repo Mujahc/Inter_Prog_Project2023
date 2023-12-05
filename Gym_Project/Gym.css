@@ -24,8 +24,7 @@ header {
 }
 
 nav {
-    background-color: red;
-    /* background-color: #222; */
+    background-color: #222;
     padding: 10px;
     text-align: right;
 }
